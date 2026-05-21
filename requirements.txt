@@ -1,0 +1,17 @@
+# Network Guardian - Bağımlılıklar
+# Python 3.11+ önerilir
+
+# GUI
+PyQt6>=6.6.0
+
+# Proxy motoru (HTTP/HTTPS interception)
+mitmproxy>=10.2.0
+
+# AI - Ollama HTTP üzerinden konuşulur, ekstra paket yok
+# (urllib stdlib yeterli)
+
+# Anomali tespiti
+scikit-learn>=1.4.0
+numpy>=1.26.0
+
+# (SQLite stdlib'de var, ekstra şart yok)
